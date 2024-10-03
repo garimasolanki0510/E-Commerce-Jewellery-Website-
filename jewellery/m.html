@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+        font-family: Poppins, sans-serif;
+      }
+      nav {
+        width: 100%;
+        box-shadow: 0px 0px 4px;
+        padding: 15px;
+       position: relative;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        margin: 0px 10px;
+        font-size: 20px;
+      }
+      nav ul li a {
+        color: black;
+      }
+      .new1 {
+        width: 400px;
+        height: 200px;
+        box-shadow: 0px 0px 3px;
+        border-radius: 20px;
+        position: absolute;
+        top: 70px;
+        display: none;
+        /* transform: scale(0); */
+        transition: all 0.3s linear;
+        padding: 10px;
+        font-size: 20px;
+      }
+
+      nav ul li a#home:hover + .new1 {
+        /* transform: scale(1); */
+        display: block;
+      }
+      nav ul li a #home i {
+        transition: all 1 ease-in-out;
+      }
+      nav ul li a#home:hover i {
+        transform: rotate(180deg);
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li>
+          <a id="home" href="#"
+            >Home &nbsp;<i class="fa-solid fa-caret-down"></i
+          ></a>
+          <div class="new1">
+            Lorem iitaque molestiae . Atque perferendis fuga
+            dignissimosaccusantium amet voluptas dolores assumenda repellat!
+          </div>
+        </li>
+        <li>
+          <a id="home" href="#"
+            >Home &nbsp;<i class="fa-solid fa-caret-down"></i
+          ></a>
+          <div class="new1">
+            Lorem iitaque molestiae . Atque perferendis fuga
+            dignissimosaccusantium amet voluptas dolores assumenda repellat!
+          </div>
+        </li>
+        <li>
+          <a id="home" href="#"
+            >Home &nbsp;<i class="fa-solid fa-caret-down"></i
+          ></a>
+          <div class="new1">
+            Lorem iitaque molestiae . Atque perferendis fuga
+            dignissimosaccusantium amet voluptas dolores assumenda repellat!
+          </div>
+        </li>
+        <li>
+          <a id="home" href="#"
+            >Home &nbsp;<i class="fa-solid fa-caret-down"></i
+          ></a>
+          <div class="new1">
+            Lorem iitaque molestiae . Atque perferendis fuga
+            dignissimosaccusantium amet voluptas dolores assumenda repellat!
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </body>
+</html>
